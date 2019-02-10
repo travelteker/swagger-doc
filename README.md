@@ -75,3 +75,16 @@ Para ello en el fichero **package.json** añadir el script:
 
 > MUY IMPORTANTE activar la opción **experimentalDecorators** para trabajar con **tsoa**
 
+### 4. Generar los ficheros .env necesarios
+
+En el directorio **'src/config'** generar los ficheros de entornos correspondiente, acorde a los requirimientos del fichero **'config.ts'**, para nuestro caso necesitaríamos:
+
+> .env.development .env.production
+
+Como parámetros necesarios confgurar los siguientes:
+
+> PORT=(number)
+
+> MONGO_URI=(string)
+
+Para este último parámetro ver la sección anterior de MongoDB Atlas.
